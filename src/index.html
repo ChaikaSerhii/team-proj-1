@@ -111,6 +111,60 @@
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
     <include src="./partials/example.html"></include>
 
+    <footer class="footer">
+      <div class="container footer-box">
+        <div class="address">
+          <a class="footer__logo logo" href=""> <span class="logo__color">Web</span>Studio</a>
+          <address>
+            <a class="address__link" href="https://goo.gl/maps/dTcquC3XmZnBBEXw5" target="_blank"
+              rel="noopener noreferrer">г.
+              Киев, пр-т Леси Украинки, 26</a>
+          </address>
+          <a class="footer__contact contact__link" href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
+          <a class="footer__contact contact__link" href="tel:+380961111111"><span>+38 096 111 11 11</span></a>
+        </div>
+        <div class="join-us__box">
+          <p class="join-us__title">присоединяйтесь</p>
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="" class="social__link join-us">
+                <svg class="social__logo" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="" class="social__link join-us">
+                <svg class="social__logo" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="" class="social__link join-us">
+                <svg class="social__logo" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="" class="social__link join-us">
+                <svg class="social__logo" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form action="" class="subscribe__form">
+          <p class="subscribe__title">Подпишитесь на рассылку</p>
+          <div class="subscribe__box">
+            <input class="subscribe__input" name="subscr-email" type="email" placeholder="E-mail">
+            <button type="submit" class="subscribe__btn basic__btn">Подписаться</button>
+          </div>
+        </form>
+      </div>
+    </footer>
 
     
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
