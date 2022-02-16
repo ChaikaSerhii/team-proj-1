@@ -1,175 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-
-
-        
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Заголовок страницы</title>
-    <link   
-
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
-
-
-
-
-     
-
-
   </head>
   <body>
     <h1>в чому проблема</h1>
 
-
-    <header class="header">
-      <div class="container header__box">
-        <a class="logo link" href="" lang="en">
-          <span class="logo__color">Web</span>Studio
-        </a>
-      
-        <nav class="navigation">
-          <ul class="navigation__list list">
-            <li class="navigation__item">
-              <a class="navigation__link link current" href=""> Студия</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="contact">
-        <a class="contact__link link" href="mailto:info@devstudio.com">
-          <svg class="contact__icon" width="16" height="12">
-            <use href="./images/icons.svg#icon-envelope-2"></use>
-          </svg>
-          info@devstudio.com</a>
-        
-        <a class="contact__link link" href="tel:+380961111111">
-          <svg class="contact__icon" width="16" height="12">
-            <use href="./images/icons.svg#icon-smartphone-2"></use>
-          </svg>
-          +38 096 111 11 11</a>
-          </div>
-
-          <button type="button" class="mob-menu__btn--open js-open-menu">
-                <svg width="40" height="40">
-                    <use href="images/icons.svg#icon-open_mob-menu"></use>
-                </svg>
-            </button>
-        
-        
-
-
-                  <div class="mob-menu js-menu-container" id="mobile-menu" >
-            <button type="button" class="mob-menu__btn--close js-close-menu">
-                <svg width="40" height="40">
-                    <use href="images/icons.svg#icon-close_mob-menu"></use>
-                </svg>
-            </button>
-            <nav class=" mob-menu__nav">
-                <ul class="mob-menu__list">
-                    <li class="mob-menu__item"><a class="mob-menu__link mob-menu__link--current" href="./index.html">Студия</a>
-                    </li>
-                    <li class="mob-menu__item"><a class="mob-menu__link" href="./portfolio.html">Портфолио</a></li>
-                    <li class="mob-menu__item"><a class="mob-menu__link" href="">Контакты</a></li>
-                </ul>
-            </nav>
-            <div class="mob-menu__bottom">
-                <a class="mob-menu__tel" href="tel:+380961111111">
-                    +38 096 111 11 11
-                </a>
-                <a class="mob-menu__mail" href="mailto:info@devstudio.com">
-                    info@devstudio.com
-                </a>
-                <ul class="mob-menu__social-list">
-                    <li class="mob-menu__social-item">
-                        <a href="" class="mob-menu__social-link">Instagram</a>
-                    </li>
-                    <li class="mob-menu__social-item">
-                        <a href="" class="mob-menu__social-link">Twitter</a>
-                    </li>
-                    <li class="mob-menu__social-item">
-                        <a href="" class="mob-menu__social-link">Facebook</a>
-                    </li>
-                    <li class="mob-menu__social-item">
-                        <a href="" class="mob-menu__social-link">LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </header>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <!-- <include src="./partials/example.html"></include> -->
+    <include src="./partials/example.html"></include>
+    <include src="./partials/footer.html"></include>
 
-    <footer class="footer">
-      <div class="container footer-box">
-        <div class="address">
-          <a class="footer__logo logo" href=""> <span class="logo__color">Web</span>Studio</a>
-          <address>
-            <a class="address__link" href="https://goo.gl/maps/dTcquC3XmZnBBEXw5" target="_blank"
-              rel="noopener noreferrer">г.
-              Киев, пр-т Леси Украинки, 26</a>
-          </address>
-          <a class="footer__contact contact__link" href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
-          <a class="footer__contact contact__link" href="tel:+380961111111"><span>+38 096 111 11 11</span></a>
-        </div>
-        <div class="join-us__box">
-          <p class="join-us__title">присоединяйтесь</p>
-          <ul class="social__list">
-            <li class="social__item">
-              <a href="" class="social__link join-us">
-                <svg class="social__logo" width="20" height="20">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a href="" class="social__link join-us">
-                <svg class="social__logo" width="20" height="20">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a href="" class="social__link join-us">
-                <svg class="social__logo" width="20" height="20">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a href="" class="social__link join-us">
-                <svg class="social__logo" width="20" height="20">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <form action="" class="subscribe__form">
-          <p class="subscribe__title">Подпишитесь на рассылку</p>
-          <div class="subscribe__box">
-            <input class="subscribe__input" name="subscr-email" type="email" placeholder="E-mail">
-            <button type="submit" class="subscribe__btn basic__btn">Подписаться</button>
-          </div>
-        </form>
-      </div>
-    </footer>
-
-    
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
 
-    <h2>test1  test2</h2>
+    <h2>test1 test2</h2>
   </body>
 </html>
